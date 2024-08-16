@@ -130,7 +130,7 @@ Route::get('/', function () {
                 "title"=>"Laravel Websockets | Chat Application Example",
                 "date"=>"July 27, 2024",
                 "description"=>"This course is about how to implements custom laravel web socket chat application",
-                "tags"=>"tag1, tag2,tag3"
+                "tags"=>"tag1, tag2, tag3"
 
 
 
@@ -167,8 +167,26 @@ Route::get('/', function () {
 
 
 
+            ],
+
+        ],"tags"=>[
+                [
+                    "url"=>"/",
+                    "name"=>"Laravel",
+
+                ],
+                [
+                    "url"=>"/",
+                    "name"=>"Google",
+
+                ],
+                [
+                    "url"=>"/",
+                    "name"=>"Web Dev"
+
+                ]
             ]
-        ]
+
 
 
     ]);
