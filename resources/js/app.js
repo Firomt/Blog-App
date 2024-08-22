@@ -6,3 +6,4 @@ window.bootstrap = require("bootstrap");
 function redirectTo(url) {
             window.location.href = url;
         }
+ 

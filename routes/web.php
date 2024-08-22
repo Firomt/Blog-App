@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home', [
         "title"=> "Blog App",
+        "page_length" => 10,
+        "total_blogs"=>11,
+        "page_number" => 1,
 
         "blogs"=>[
             [
